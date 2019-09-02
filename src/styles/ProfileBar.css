@@ -1,0 +1,23 @@
+.profile-item{
+    display: flex;
+}
+
+.profile-content {
+    /*color:red;*/
+    /*border: 1px solid red;*/
+    /*float:right;*/
+    text-align: right;
+    flex: 1;
+}
+
+/*.profile-entry {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*    width: 100%;*/
+/*    padding: 10px 10px 10px;*/
+/*}*/
+
+.profile-tag {
+    text-align: left;
+    font-weight: bold;
+}

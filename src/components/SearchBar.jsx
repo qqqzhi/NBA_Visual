@@ -40,8 +40,6 @@ export class SearchBar extends React.Component{
         );
     }
 
-
-
     render(){
         return (
             <AutoComplete

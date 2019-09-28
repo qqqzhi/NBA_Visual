@@ -6,10 +6,10 @@
     "antd": "^3.8.2",
     "d3-shotchart": "0.0.2",
     "lodash": "^4.17.10",
-    "nba": "^4.2.2",
+    "nba": "^4.2.2npm ",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-scripts": "^3.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -19,5 +19,17 @@
     "s3deploy": "s3-deploy './build/**' --cwd './build' --region aws s3 --bucket nba-player-visual-zhenyupan",
     "build_deploy": "npm run build && npm run s3deploy"
   },
-  "homepage": "."
+  "homepage": ".",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
